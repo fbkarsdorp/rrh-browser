@@ -1,7 +1,7 @@
 require([
-  '/static/js/jquery.js',
-  '/static/js/mustache.js',
-  '/static/js/lunr.js',
+  'static/js/jquery.js',
+  'static/js/mustache.js',
+  'static/js/lunr.js',
   'text!templates/story_view.mustache',
   'text!templates/story_list.mustache',
   'text!RRH.json',
