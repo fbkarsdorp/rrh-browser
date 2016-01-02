@@ -1,0 +1,126 @@
+body, h2, h3, .pure-g [class *="pure-u"] {
+    margin-top: 10px;
+    font-family: 'Lucida Grande';
+    font-size: 11px;
+    background-color:#f9f9f9;
+    line-height: 17px;
+    color: #000000;
+}
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-weight: 100;
+    letter-spacing: 0.01em;
+}
+
+#layout {
+    position: relative;
+    padding-left: 0;
+}
+
+.wrap {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+.content {
+    margin-bottom: 30px;
+    line-height: 1.6em;
+}
+
+header {
+    margin: 0;
+    text-align: center;
+    font:16px 'Lucida Grande';
+    text-transform: uppercase;
+    font-weight: 100%;
+    letter-spacing:0.1em;
+    color: #000000;
+    padding: 2.0em 2em 0.5em;
+ }
+
+ h3 {
+  font-size:8px;
+  font-weight:100%;
+ }
+
+
+#searchbar {
+    margin: 0;
+    position: relative;
+    text-align: center;
+
+    width:100%;
+    margin-bottom: 30px;
+}
+
+#search input {
+    padding: 0.5em 1em;
+    border:0px solid #fff;
+    outline-style:none;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#title {
+    font:14px 'Lucida Grande';
+    text-transform: uppercase;
+    color: #000000;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #9D9F8B;
+    color: #ffffff;
+}
+
+#author, #year, #collaborator {
+    color: #AEAF9C;
+}
+
+#stories {
+    position: relative;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+#story {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#story-hit {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#sep {
+    border-bottom: 1px solid #eee;
+}
+
+footer {
+  text-align: center;
+  font-size:0.7em;
+  font-weight:100;
+}
+

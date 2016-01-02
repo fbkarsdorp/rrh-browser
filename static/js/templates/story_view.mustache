@@ -1,0 +1,14 @@
+<div id="story">
+  <div id="title">{{title}}</div>
+  <div id="year">{{year}}</div>  
+  <div id="author">{{author}}</div>
+  <div id="collaborator">{{collaborator}}</div>  
+  <div id="blurb">
+  {{#pars}}
+    <p>{{#paragraph}}
+         {{.}}<br/>
+       {{/paragraph}}
+    </p>
+  {{/pars}}
+    </div>
+</div>
